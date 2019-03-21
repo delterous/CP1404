@@ -11,7 +11,7 @@ for i in range(20, 0, -1):
 print()
 
 n_stars = int(input("input the number of stars: "))
-#print("*" * n_stars)
+print("*" * n_stars)
 
 for i in range(1, n_stars + 1):
     print('*' * i)

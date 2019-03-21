@@ -16,10 +16,13 @@ file.close()
 
 #program 4
 
+
+"""
 file = open("numbers.txt", "r")
-total  = 0
+total = 0
 for line in file:
     number = int(line)
     total += number
 print(number)
 file.close()
+"""
