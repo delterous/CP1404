@@ -10,6 +10,6 @@ while not finished:
         result = int(input("Enter a valid integer"))
         finished = True
         pass
-    except ValueError:  # TODO - add something after except
+    except ValueError:
         print("Please enter a valid integer.")
 print("Valid result is:", result)
